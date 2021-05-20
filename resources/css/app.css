@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import "C:\laragon\www\payment2\public\css\buttons.css";
+@import "C:\laragon\www\payment2\public\css\cards.css";
+@import "C:\laragon\www\payment2\public\css\container.css";
+@import "C:\laragon\www\payment2\public\css\forms.css";
+
