@@ -12,6 +12,11 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <script src="https://js.stripe.com/v3/"></script>
+
+        @isset($css)
+            {{ $css }}
+        @endisset
 
         @livewireStyles
 
@@ -42,5 +47,9 @@
         @stack('modals')
 
         @livewireScripts
+
+        @isset($js)
+            {{ $js }}
+        @endisset
     </body>
 </html>
